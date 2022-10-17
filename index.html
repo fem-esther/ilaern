@@ -1,0 +1,295 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./dist/output.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/378a7ca952.js" crossorigin="anonymous"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,700&display=swap');
+
+        body {
+            overflow-x: hidden;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .main-platform {
+            margin: 60px 130px;
+        }
+
+        .blue {
+            width: 100%;
+            height: 100vh;
+            background-color: #033E96;
+            border-radius: 20px;
+        }
+
+        .content-wrapper {
+            margin-top: 40px;
+        }
+
+        .circle-wrapper {
+            position: relative;
+            margin-top: 20px;
+        }
+
+        .circle-1 {
+            width: 230px;
+            height: 230px;
+            background: #FF8A20;
+            border-radius: 50%;
+        }
+
+        .circle-2 {
+            width: 300px;
+            height: 300px;
+            background: #3374CD;
+            position: absolute;
+            border-radius: 50%;
+            top: 140px;
+            left: 120px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- landing page starts here -->
+    <nav class="bg-[#05A6DA] px-2 sm:px-4 py-2.5 fixed w-full z-20 top-0 left-0 border-b">
+        <div class="container flex flex-wrap justify-between items-center mx-auto">
+            <a href="./index.html" class="flex items-center">
+                <img src="./img/iLaernNG 1.png" class="mr-3 h-6 sm:h-9" alt="Ilaern Logo">
+
+            </a>
+            <div class="flex md:order-2">
+                <a href="./login.html">
+                    <button type="button"
+                        class="text-[#05A6DA] bg-white hover:bg-[#FF8A20] hover:text-white  focus:outline-none font-medium rounded-full text-sm px-8 py-2.5 text-center mr-3   md:mr-0 ">Signup
+                        /
+                        Login</button></a>
+                <button data-collapse-toggle="navbar-sticky" type="button"
+                    class="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                    aria-controls="navbar-sticky" aria-expanded="false">
+                    <span class="sr-only">Open main menu</span>
+                    <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                            clip-rule="evenodd"></path>
+                    </svg>
+                </button>
+            </div>
+            <div class="hidden justify-between items-center w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
+                <ul
+                    class="flex flex-col p-4 mt-4 bg-none rounded-lg border border-gray-100 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0">
+                    <li>
+                        <a href="#"
+                            class="block py-2 pr-4 pl-3 text-white rounded md:bg-transparent  md:p-0 dark:text-white"
+                            aria-current="page">Subscribe</a>
+                    </li>
+                    <li>
+                        <a href="#"
+                            class="block py-2 pr-4 pl-3 text-white rounded  md:hover:bg-transparent  md:p-0">Learning
+                            Forum</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="w-full h-screen bg-cover bg-no-repeat bg-center mt-10"
+        style="background-image: url(./img/SVG/Artboard\ 1dots90.svg);">
+        <div class="flex  mx-28">
+            <div class="flex pt-28 flex-col w-[100%]">
+                <h2 class=" font-semibold text-left text-6xl leading-[1.2]">Get your child a <br> dedicated learning
+                    <br>
+                    <span class=" text-[#FF8A20]">
+                        platform</span>
+                </h2>
+                <div class="flex w-2/4 mt-6">
+                    <button type="button"
+                        class="text-[#fff] bg-[#FF8A20] hover:bg-[#033E96] focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm px-8 py-2.5 text-center mr-3   md:mr-0 ">Request
+                        Demo</button>
+                </div>
+            </div>
+            <div class="flex pt-20">
+                <img src="./img/vector.png" alt="" class=" w-[100%]">
+            </div>
+        </div>
+    </section>
+    <!-- landing page ends here -->
+
+    <!-- platform starts here -->
+    <section class=" mx-20 main-platform h-screen">
+        <div class="blue  flex">
+            <div class="flex flex-col ml-20 content-wrapper">
+                <p class=" text-white font-medium text-5xl">More than your average <br> e-learning platform</p>
+                <div class="circle-wrapper mb-5">
+                    <div
+                        class=" circle-1 flex px-5 text-center items-center justify-center text-white text-xl font-medium">
+                        Access to
+                        wide range of e-learning contents on-the-go</div>
+                    <div
+                        class=" circle-2 px-5 text-center flex items-center justify-center text-white text-xl font-medium">
+                        Create
+                        new
+                        learning experiences by joining Live classes and viewing recorded lessons.</div>
+                </div>
+            </div>
+            <div class="flex ">
+                <img src="./img/image 27.png" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- platform ends here -->
+
+    <!-- section 3/eveerything starts here -->
+    <section class="main-platform mt-48 mb-32">
+        <div class="flex flex-col">
+            <div class="flex flex-col">
+                <h1 class=" font-bold text-5xl text-[#002660] px-52 text-center leading-[1.2]">Everything you need to
+                    excel in school.
+                </h1>
+                <p class=" font-semi-bold text-xl text-[#002660] px-52 text-center mt-5">In-depth yet easy-to-understand
+                    explanations & lessons ,Homework, Help, Live Classes, Mock Exams,
+                    Practice Tests, & Quizzes, Learning Reports.</p>
+            </div>
+            <div class="flex justify-around mx-40 pt-20">
+                <img src="./img/Frame 280.png" alt="" class=" h-[450px]">
+                <div class="flex flex-col h-[450px] justify-around">
+                    <!-- btn  1-->
+                    <button type="button"
+                        class="text-[#fff] bg-[#FF8A20] focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm px-8 py-5 text-centermd:mr-0 flex"><img
+                            src="./img/vector2.png" alt="" class=" mr-2">
+                        <p class="">Video Library</p>
+                    </button>
+                    <!-- btn 2 -->
+                    <button type="button"
+                        class="text-[#fff] bg-[#FF8A20] focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm px-8 py-5 text-centermd:mr-0 flex"><img
+                            src="./img/vector2.png" alt="" class=" mr-2">
+                        <p class="">Video Library</p>
+                    </button>
+                    <!-- btn 3 -->
+                    <button type="button"
+                        class="text-[#fff] bg-[#FF8A20] focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm px-8 py-5 text-centermd:mr-0 flex"><img
+                            src="./img/vector2.png" alt="" class=" mr-2">
+                        <p class="">Video Library</p>
+                    </button>
+                    <!-- btn 4 -->
+                    <button type="button"
+                        class="text-[#fff] bg-[#FF8A20] focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm px-8 py-5 text-centermd:mr-0 flex"><img
+                            src="./img/vector2.png" alt="" class=" mr-2">
+                        <p class="">Video Library</p>
+                    </button>
+                    <!-- btn 5 -->
+                    <button type="button"
+                        class="text-[#fff] bg-[#FF8A20] focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm px-8 py-5 text-centermd:mr-0 flex"><img
+                            src="./img/vector2.png" alt="" class=" mr-2">
+                        <p class="">Video Library</p>
+                    </button>
+                    <!-- btn 6 -->
+                    <button type="button"
+                        class="text-[#fff] bg-[#FF8A20] focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm px-8 py-5 text-centermd:mr-0 flex"><img
+                            src="./img/vector2.png" alt="" class=" mr-2">
+                        <p class="">Video Library</p>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section 3/eveerything ends here -->
+
+    <!-- section 4/grades starts here -->
+    <section class="w-full mx-20 mt-36">
+        <div class="flex flex-col">
+            <div class="flex flex-col">
+                <h1 class=" font-bold text-5xl text-[#002660] px-80 text-center ">We cover different <br> grades</h1>
+                <p class=" font-semi-bold text-xl text-[#002660] px-80 text-center mt-5 ">Our lessons are categorised
+                    by
+                    grades to ensure every learner learns what is appropriate to their level.</p>
+            </div>
+            <div class="grid lg:grid-cols-3 gap-x-8 my-auto items-center mr-44 mt-20">
+                <div class="max-w-sm hover:px-8 hover:py-8 px-5 py-5 rounded-3xl overflow-hidden shadow-lg">
+                    <img class="w-full" src="./img/Rectangle 45.png" alt="Sunset in the mountains">
+                    <div class="px-6 py-4">
+                        <div class="font-bold text-xl mb-2">Primary</div>
+                        <p class="text-gray-700 text-base">
+                            Immersive lessons covering Mathematics, English & science for the perfect academic
+                            head-start.
+                        </p>
+                    </div>
+
+                </div>
+
+                <!-- 2 -->
+
+                <div class="max-w-sm hover:px-8 hover:py-8 rounded-3xl px-5 py-5  overflow-hidden shadow-lg">
+                    <img class="w-full" src="./img/Rectangle 47.png" alt="Sunset in the mountains">
+                    <div class="px-6 py-4">
+                        <div class="font-bold text-xl mb-2">Junior Secondary</div>
+                        <p class="text-gray-700 text-base">
+                            Immersive lessons covering Mathematics, English & science for the perfect academic
+                            head-start.
+                        </p>
+                    </div>
+
+                </div>
+                <!-- 3 -->
+                <div class="max-w-sm hover:px-8 hover:py-8 rounded-3xl px-5 py-5  overflow-hidden shadow-lg">
+                    <img class="w-full" src="./img/Rectangle 46.png" alt="Sunset in the mountains">
+                    <div class="px-6 py-4">
+                        <div class="font-bold text-xl mb-2">Senior Secondary</div>
+                        <p class="text-gray-700 text-base">
+                            Immersive lessons covering Mathematics, English & science for the perfect academic
+                            head-start.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- section 4/grades ends here -->
+
+    <footer class=" h-auto w-[100%] mt-20">
+        <hr class=" bg-[#FF8A20] w-[100%] h-1 ">
+        <div class="flex flex-col mt-10">
+            <div class="flex w-40 ml-14 ">
+                <img src="./img/IL2 2.png" alt="">
+            </div>
+            <div class="flex mt-10 w-[80%] justify-between ml-16 ">
+                <div class="flex flex-col">
+                    <p class=" text-[#033E96]">Powered By</p>
+                    <p class=" text-[#033E96]"><a href="">Krystal Digital Limited</a></p>
+                </div>
+                <div class="flex flex-col">
+                    <p class=" text-[#033E96] font-semibold">Pages</p>
+                    <div class="flex w-[100%] justify-around ">
+                        <a href="" class=" mr-10 text-[#033E96]">Course</a>
+                        <a href="" class=" mr-10 text-[#033E96]">Library</a>
+                        <a href="" class=" mr-10 text-[#033E96]">Dashboard</a>
+                    </div>
+                </div>
+                <div class="flex">
+                    <div class="flex flex-col">
+                        <p class=" text-[#033E96] font-semibold">Pages</p>
+                        <div class="flex">
+                            <a href="" class=" mr-10 text-[#033E96]">Course</a>
+                            <a href="" class=" mr-10 text-[#033E96]">Library</a>
+                            <a href="" class=" mr-10 text-[#033E96]">Dashboard</a>
+                            <a href="" class=" mr-10 text-[#033E96]">Learning Forum</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="flex w-[100%] items-center justify-center mt-20 pb-5">
+                <p class=" text-[#033E96]">Copyright &copy; 2022 | All right Reserved</p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/flowbite@1.5.3/dist/flowbite.js"></script>
+</body>
+
+</html>
